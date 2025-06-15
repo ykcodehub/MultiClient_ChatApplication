@@ -1,21 +1,21 @@
-# 💬 chatApp - Java Multi-Client Chat Application
+# chatApp - Java Multi-Client Chat Application
 
 **chatApp** is a multi-threaded chat application built using Java where multiple clients can connect to a single server and communicate **publicly** (group chat) or **privately** (direct messages). This project demonstrates the use of **Java Sockets** and **Multithreading** to simulate a real-time chat system.
 
 ---
 
-## 📌 Features
+## Features
 
-- 📡 **Multiple Clients** can connect to a single server
-- 💬 **Public Chat**: All messages are broadcast to all connected users
-- 🔐 **Private Chat**: Users can send direct messages to specific users
-- 🧵 **Multithreaded Server**: Each client runs on a separate thread
-- 👤 Unique usernames for each client
-- ❌ Graceful disconnection and server handling
+-  **Multiple Clients** can connect to a single server
+-  **Public Chat**: All messages are broadcast to all connected users
+-  **Private Chat**: Users can send direct messages to specific users
+-  **Multithreaded Server**: Each client runs on a separate thread
+-  Unique usernames for each client
+-  Graceful disconnection and server handling
 
 ---
 
-## 🛠️ Technologies Used
+##  Technologies Used
 
 - Java `Socket` and `ServerSocket`
 - Java `Threads` for concurrent client handling
@@ -24,7 +24,7 @@
 
 ---
 
-## 📁 concept Demonstrated
+##  concept Demonstrated
 
 - Socket Programming
 - Multithreading
@@ -34,15 +34,15 @@
 
   --
   
-## 💬 How to Use
-✅ Public Chat
+##  How to Use
+### Public Chat
 Simply type a message and press Enter. The message will be broadcast to all connected clients.
 
-🔒 Private Chat
+### Private Chat
 To send a private message, use the format:
 * @username your message here *
 
 
-## 👨‍💻 Author
+##  Author
 Yogendra Katuwal
-📧 [katuwalyogendra2@gmail.com]
+[katuwalyogendra2@gmail.com]
